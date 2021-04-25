@@ -46,6 +46,6 @@ Change the permission of the `./script.sh`:
 
 Run the script :
 
-    ```./script.sh```
+```./script.sh```
     
 if in Windows change the cmp instruction to FC. The results are saved in the files `results_H.txt` and `results_C.txt`.The cmp instruction compare between the two files and return void if the two files are identical. 
