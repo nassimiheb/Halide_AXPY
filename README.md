@@ -4,12 +4,13 @@ This project is an implentation of the level 1 BLAS routine; called "axpy" ( "a 
 ## Halide Installation
 ### Acquiring LLVM
 
-```cmake -DCMAKE_BUILD_TYPE=Release \        
+``` cmake -DCMAKE_BUILD_TYPE=Release \        
     -DLLVM_ENABLE_PROJECTS="clang;lld;clang-tools-extra" \        
     -DLLVM_TARGETS_TO_BUILD="X86;ARM;NVPTX;AArch64;Mips;Hexagon" \        
     -DLLVM_ENABLE_TERMINFO=OFF -DLLVM_ENABLE_ASSERTIONS=ON \        
     -DLLVM_ENABLE_EH=ON -DLLVM_ENABLE_RTTI=ON -DLLVM_BUILD_32_BITS=OFF \        
-    -S llvm-project/llvm -B llvm-build```
+    -S llvm-project/llvm -B llvm-build ```
+
 
 Building LLVM : 
 
